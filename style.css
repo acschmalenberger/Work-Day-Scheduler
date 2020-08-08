@@ -31,7 +31,6 @@ textarea{
 }
 
 #plannerContainer{
-  background: #5CA0FF;
   text-align: center;
   border-radius: 15px;
 }
@@ -43,7 +42,7 @@ textarea{
 }
 
 .planner-row{
-  height: 50px;
+  height: 90px;
   margin-top: 2px;
   margin-bottom: 2px;
   font-size: 1em;
@@ -74,15 +73,12 @@ textarea{
   color: white;
 }
 
-.saveBtn {
+button {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
+  padding: 5px;
+  background-color: #bdbdbd;
+  color: black;
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-}
